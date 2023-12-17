@@ -1,4 +1,4 @@
-import Link from "next/link";
+// import Link from "next/link";
 import Image from "next/image";
 
 interface Props {
@@ -41,7 +41,7 @@ function ProfileHeader({
           </div>
         </div>
         {accountId === authUserId && type !== "Community" && (
-          <Link href='/profile/edit'>
+          // <Link href='/profile/edit'>
             <div className='flex cursor-pointer gap-3 rounded-lg bg-dark-3 px-4 py-2'>
               <Image
                 src='/assets/edit.svg'
@@ -52,7 +52,7 @@ function ProfileHeader({
 
               <p className='text-light-2 max-sm:hidden'>Edit</p>
             </div>
-          </Link>
+          // </Link>
         )}
       </div>
 

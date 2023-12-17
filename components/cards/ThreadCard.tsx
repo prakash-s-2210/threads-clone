@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { formatDateString } from "@/lib/utils";
-// import DeleteThread from "../forms/DeleteThread";
+import DeleteThread from "../forms/DeleteThread";
 
 interface Props {
   id: string;
@@ -114,17 +114,17 @@ function ThreadCard({
           </div>
         </div>
 
-        {/* <DeleteThread
+        <DeleteThread
           threadId={JSON.stringify(id)}
           currentUserId={currentUserId}
           authorId={author.id}
           parentId={parentId}
           isComment={isComment}
-        /> */}
+        />
       </div>
 
       {!isComment && comments.length > 0 && (
-        <div className='ml-2.5 mt-3 flex items-center gap-2'>
+        <div className={`${comments.length === 1 ? "ml-2.5" : "ml-1"} mt-3 flex items-center gap-2`}>
           {comments.slice(0, 2).map((comment, index) => (
             <Image
               key={index}

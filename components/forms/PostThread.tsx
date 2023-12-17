@@ -20,11 +20,11 @@ import { Textarea } from "@/components/ui/textarea";
 import { ThreadValidation } from "@/lib/validations/thread";
 import { createThread } from "@/lib/actions/thread.actions";
 
-interface PostThreadProps {
+interface Props {
   userId: string;
 }
 
-function PostThread({ userId }: PostThreadProps) {
+function PostThread({ userId }: Props) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -42,7 +42,7 @@ function PostThread({ userId }: PostThreadProps) {
     await createThread({
       text: values.thread,
       author: userId,
-      communityId: null,
+      communityId: organization ? organization.id : null,
       path: pathname,
     });
 
