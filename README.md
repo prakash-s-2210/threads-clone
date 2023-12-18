@@ -22,7 +22,7 @@ Master the latest version of Next.js (14.0.4) with a focus on Server Side Render
 ## Key Features:
 
 **1. Optimized Layouts:** <br/>
-    * Create visually appealing layouts using TailwindCSS for a seamless user interface.
+      - Create visually appealing layouts using TailwindCSS for a seamless user interface.
 Authentication with Clerk:
 
 Implement secure user authentication using Clerk for a streamlined login experience.
