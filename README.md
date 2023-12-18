@@ -66,7 +66,7 @@ Deploy the application using suitable hosting platforms to make it accessible to
 4. Run the application locally with npm run dev.
 5. Explore and customize as needed.
 
-<p style="text-align: center;">
+<p align="center">
   <a href="https://www.linkedin.com/in/prakash2210/" target="_blank">
     Feel free to reach out for any questions or issues. Happy coding!
   </a>
