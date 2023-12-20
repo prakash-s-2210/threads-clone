@@ -4,7 +4,7 @@
 
 ## Overview:
 
-Master the latest version of Next.js (14.0.4) with a focus on Server Side Rendering for optimal performance and user experience.
+Latest version of Next.js (14.0.4) with a focus on Server Side Rendering for optimal performance and user experience.
 
 ## Technologies Used:
 
