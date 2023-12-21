@@ -2,11 +2,11 @@
 
 ![threads](https://github.com/prakash-s-2210/threads-clone/assets/94909544/4943f50a-598e-49e2-999e-e5b81eabca3e)
 
-## Overview:
+## Overview
 
 Latest version of Next.js (14.0.4) with a focus on Server Side Rendering for optimal performance and user experience.
 
-## Technologies Used:
+## Technologies Used
 
 - React.js
 - Next.js
@@ -19,7 +19,7 @@ Latest version of Next.js (14.0.4) with a focus on Server Side Rendering for opt
 - Zod for data validation
 - React Hook Form for efficient form management
 
-## Key Features:
+## Key Features
 
 **1. Optimized Layouts:**
    - Create visually appealing layouts using TailwindCSS for a seamless user interface.
